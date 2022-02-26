@@ -134,7 +134,7 @@ header p {
     height: 50px;
     border: none;
     border-radius: 5px;
-    margin-top:30px;
+    margin-top: 30px;
     box-shadow: 0 8px 8px -10px rgb(53, 45, 45);
     max-width: 100%;
 }
@@ -149,6 +149,10 @@ header p {
     .sidebar {
         padding: 30px;
         border-radius: 0;
+    }
+
+    .sidebar p:nth-child(4) {
+        margin-top: 15px;
     }
 
     .sidebar button {
